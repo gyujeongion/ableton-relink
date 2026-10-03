@@ -1,0 +1,15 @@
+{
+  "search": [
+    "~/Music/Samples",
+    "/Volumes/SampleDrive/Packs"
+  ],
+  "ssh": [
+    {
+      "host": "my-nas",
+      "roots": ["/volume1/Samples", "/volume1/Projects"],
+      "mounts": {
+        "/volume1/Samples": "/Volumes/Samples"
+      }
+    }
+  ]
+}
